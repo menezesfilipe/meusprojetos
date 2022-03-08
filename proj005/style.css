@@ -1,0 +1,146 @@
+
+@font-face {
+    font-family: 'tommy-black';
+    src: url(fonts/MADE\ TOMMY\ Black_PERSONAL\ USE.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'tommy-bold';
+    src: url(fonts/MADE\ TOMMY\ Bold_PERSONAL\ USE.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'tommy-light';
+    src: url(fonts/MADE\ TOMMY\ Light_PERSONAL\ USE.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'tommy-regular';
+    src: url(fonts/MADE\ TOMMY\ Regular_PERSONAL\ USE.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'tommy-medium';
+    src: url(fonts/MADE\ TOMMY\ Medium_PERSONAL\ USE.otf) format('opentype');
+}
+
+body {
+    background-color: white;
+    color: black;
+    font-family: 'tommy-regular', sans-serif;
+    max-width: 1200px;
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    width: 1330px;
+    padding: 15px;
+    margin-left: 0px;
+    background-color: #6C63FF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title {
+    font-family: 'tommy-medium';
+    flex-direction: column;
+    line-height: 10px;
+}
+
+li {
+    display: inline-block;
+    margin: 20px;
+}
+
+a {
+    color: white;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+a:hover {
+    background-color: white;
+    color: #6C63FF;
+    transition: 0.3s all;
+}
+
+#inscreva-se {
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#inscreva-se:hover {
+    background-color: white;
+    color: #6C63FF;
+    transition: 0.3s;
+}
+
+h1 {
+    color: white;
+    font-weight: 200;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 3em;
+    line-height: 10px;
+    font-family: 'tommy-bold';
+}
+
+span {
+    color: #6C63FF;
+}
+
+p {
+    margin-top: 5px;
+    line-height: 20px;
+    max-width: 500px;
+    font-family: 'tommy-light';
+}
+
+img {
+    margin-left: 70px;
+    width: 600px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+form [type="submit"]{
+    height: 50px;
+    width: 50%;
+    background-color: #6C63FF;
+    color: white;
+    font-weight: bold;
+}
+form [type="submit"]{
+    cursor: pointer;
+}
+input {
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.274);
+    font-size: 0.8em;
+}

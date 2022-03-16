@@ -33,7 +33,7 @@ a {
 }
 
 body {
-    font-family: 'montserrat-regular';
+    font-family: 'montserrat-regular', sans-serif;
     background: url('images/background.jpg') no-repeat center center/cover;
     width: 100vw;
     height: 100vh;
@@ -61,7 +61,7 @@ nav .container img {
 }
 
 nav .container input, 
-nav . .container #togglenav {
+nav .container #togglenav {
     display: none;
 }
 

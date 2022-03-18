@@ -1,0 +1,180 @@
+@charset "UTF-8";
+
+*{
+    box-sizing: border-box;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    text-decoration: none;
+}
+
+:root {
+    --color1: #f05900;
+    --color2: #2318F0;
+    --color3: #f8f9fa;
+    --color4: #cceffa;
+}
+
+@font-face {
+    font-family: "roboto-regular";
+    src: url(fonts/Roboto-Regular.ttf) format('opentype');
+}
+
+body {
+    display: flex;
+    font-family: 'roboto-regular', sans-serif;
+    
+}
+
+.container {
+    width: 500px;
+    height: 620px;
+    padding: 50px;
+    margin: 0px;
+}
+
+#formulario{
+    padding-bottom: -20px;
+    align-items: center;
+    background-color: #f6f7fb;
+}
+
+#logo{
+    width: 300px;
+    margin-left: 150px;
+    margin-bottom: 45px;
+    
+}
+
+#logo img{
+    width: 100px;
+    height: 100px;
+}
+
+#formulario h2{
+    font-size: 1.5em;
+    font-weight: normal;
+    margin: 10px 0px;
+}
+
+#formulario p{
+    font-size: 0.9em;
+    line-height: 25px;
+}
+
+#formulario form{
+    margin: 20px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    background-color: rgb(232, 240, 254);
+    width: 100%;
+    height: 35px;
+    margin-bottom: 15px;
+    padding: 15px;
+    font-size: 15px;
+    border: 2px solid transparent;
+    border-radius: 4px ;
+    box-shadow: 1px 0px 5px rgba(0, 0, 0, 0.349);
+}
+
+form a {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+form a {
+    color: #64647a;
+}
+
+form a:hover {
+    text-decoration: underline;
+}
+
+form [type="submit"]{
+    padding: 9px 20px;
+    width: 120px;
+    height: 40px;
+    margin: auto;
+    background-color: var(--color1);
+    color: white;
+    border-radius: 5px;
+    line-height: 16px;
+    cursor: pointer;
+    transition: all 500ms ease ;
+}
+
+form [type="submit"]:hover{
+    background-color: #c54901;
+}
+
+
+#contato {
+    margin-top: 50px;
+    color: #64647a;
+}
+
+#contato p{
+    font-size: 0.6em;
+    text-align: center;
+    font-weight: normal;
+    line-height: 20px;
+}
+
+#contato a {
+    text-decoration: none;
+    color: #64647a;
+}
+
+#contato a:hover {
+    text-decoration: underline;
+}
+
+#banner {
+    width: 1000px;
+    height: 635px;
+    background-image: url(img/pexels-victor-freitas-841131.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: right;
+}
+
+#banner h1 {
+    position: relative;
+    color: white;
+    top: 40%;
+    font-size: 4em;
+}
+
+
+@media screen and (max-width: 700px){
+
+    body{
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #logo{
+        width: 100px;
+        margin: 0 auto;
+    }
+
+    #formulario{
+        padding: 100px;
+        font-size: 0.7em;
+        margin: 0 auto;
+    }
+
+    #formulario h2 {
+
+    }
+
+    #banner{
+        display: none;
+    }
+
+}

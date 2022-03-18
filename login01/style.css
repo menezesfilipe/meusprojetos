@@ -158,13 +158,18 @@ form [type="submit"]:hover{
         flex-direction: column;
     }
 
+    .container{
+        width: 400px;
+        margin: 0 auto;
+    }
+
     #logo{
         width: 100px;
         margin: 0 auto;
     }
 
     #formulario{
-        padding: 100px;
+        padding: 50px;
         font-size: 0.7em;
         margin: 0 auto;
     }

@@ -151,7 +151,7 @@ form [type="submit"]:hover{
 }
 
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 600px){
 
     body{
         align-items: center;
@@ -159,7 +159,7 @@ form [type="submit"]:hover{
     }
 
     .container{
-        width: 400px;
+        width: 375px;
         margin: 0 auto;
     }
 

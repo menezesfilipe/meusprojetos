@@ -1,0 +1,268 @@
+@charset "UTF-8";
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+:root {
+    --cor1: #E48900;
+    --cor2: #000000;
+    --cor3: #ffff;
+    --cor4: #212121;
+}
+
+@font-face {
+    font-family: 'bevan-regular';
+    src: url(fonts/Bevan-Regular.ttf) format('opentype');
+}
+
+@font-face {
+    font-family: 'montserrat-regular';
+    src: url(fonts/Montserrat-Regular.ttf);
+}
+
+body {
+    font-family: 'montserrat-regular', sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: 'bevan-regular', sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 800px;
+    background-image: url(imagens/background\ \(2\).jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+div#logo{
+    padding: 20px;
+    margin-left: 50px;
+    width: 150px;
+}
+
+div#logo > img {
+    width: 150px;
+}
+
+div#menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px 10px 100px;
+}
+
+nav{
+    padding: 20px;
+}
+
+nav > ul {
+    display: flex;
+    flex-direction: row;
+}
+
+ul > li {
+    padding: 20px;
+    margin-right: 20px;
+}
+
+header a {
+    color: white;
+    font-family: 'montserrat-regular', sans-serif;
+    font-weight: bolder;
+    font-size: 0.7em;
+    transition: all 300ms ease;
+}
+
+header a:hover{
+    color: #E48900;
+}
+
+#loja {
+    height: 50px;
+    padding:8px 25px;
+    background-color: #E48900;
+    color: #000000;
+    border-radius: 0;
+    font-size: 0.7em;
+}
+
+#loja:hover {
+    color: #000000;
+}
+
+h1 {
+    width: 120vh;
+    margin: 40px auto 50px auto;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 2.5em;
+}
+
+div#elements {
+    width: 70vh;
+    height: 80px;
+    margin: 0 auto;
+    margin-bottom: 150px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.521);
+}
+
+div#elements img{
+    margin-left: 10px;
+}
+
+div#button {
+    text-align: center;
+}
+
+button {
+    font-family: 'bevan-regular', sans-serif;
+    font-weight: normal;
+    border: 0px;
+    color: #212121;
+    width: 160px;
+    height: 50px;
+    text-align: center;
+    padding: 12px 35px;
+    background-color: #E48900;
+    font-size: 14px;
+    box-shadow: 2px 1px 1px black;
+    transition: all 300ms ease;
+}
+
+button:hover {
+    background-color: #c47500;
+    cursor: pointer;
+}
+
+section#aplicativo {
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    background-color: #212121;
+}
+
+div#texto {
+    text-align: justify;
+    width: 600px;
+    height: 280px;
+    margin-left: 100px;
+}
+
+div#texto h3 {
+    font-size: 1.3em;
+    font-weight: normal;
+    margin-bottom: 15px;
+}
+
+div#texto p{
+    font-size: 0.8em;
+    margin-bottom: 50px;
+}
+
+div#plataformas {
+    display: flex;
+    flex-direction: row;
+}
+
+div#playstore {
+    width: 200px;
+    height: 100px;
+    margin-left: 100px;
+}
+
+div#playstore img {
+    width: 200px;
+}
+
+div#appstore {
+    
+    width: 200px;
+    height: 100px;
+    margin-top: 8px;
+}
+
+div#appstore img {
+    text-align: center;
+    width: 200px;
+}
+
+section#formulario {
+    background-color: #E48900;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 600px;
+    align-items: center;
+}
+
+form {
+    width: 650px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form h3 {
+    color: #000000;
+    text-align: center;
+    font-size: 1.6em;
+    padding-bottom: 10px;
+}
+
+form input {
+    background-color: #212121;
+    color: white;
+    font-family: 'montserrat-regular', sans-serif;
+    font-size: 0.7em;
+    border: 0;
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+input#enviar {
+    font-family: 'bevan-regular', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    background-color: #E48900;
+    color: #212121;
+    border: 1px solid #212121;
+    margin-top: 20px;
+    padding: 15px;
+    width: 20%;
+    box-shadow: 2px 1px 1px black;
+    transition: all 300ms ease;
+}
+
+input#enviar:hover {
+    background-color: #212121;
+    color: #E48900;
+    cursor: pointer;
+}
+
+div#banner {
+    background-color: red;
+    width:700px;
+    height: 600px;
+    background-image: url(imagens/bg2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

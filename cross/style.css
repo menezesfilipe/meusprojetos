@@ -1,0 +1,162 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root {
+    --cor1: #0DF205;
+    --cor2: #1D1C1A;
+    --cor3: #067302;
+}
+
+@font-face {
+    font-family: 'poppins';
+    src: url(fonts/Poppins-Regular.ttf) format('opentype');
+}
+
+
+@font-face {
+    font-family: 'poppins-bold';
+    src: url(fonts/Poppins-Bold.ttf) format('opentype');
+}
+
+
+@font-face {
+    font-family: 'tommy';
+    src: url(fonts/MADE\ TOMMY\ Regular_PERSONAL\ USE.otf) format('opentype');
+}
+
+body {
+    background-color: #1D1C1A;
+    color: #fff;
+    font-family: 'poppins', sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    font-family: 'tommy', sans-serif;
+    font-weight: lighter;
+    font-size: 1rem;
+    background-image: url(imagens/banner.JPG);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+nav {
+    background-color: #1d1c1ac0;
+    padding: 1.3rem;
+    text-align: center;
+}
+
+nav ul {
+    display: inline-block;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 1rem;
+    margin-left: 3rem;
+}
+
+nav a {
+    color: #fff;
+    transition: all 300ms ease;
+}
+
+nav a:hover {
+    color: #0DF205;
+}
+
+div#logomain {
+    width: 50%;
+    height: auto;
+    margin: 9rem auto;
+}
+
+div#logomain img{
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+}
+
+.container img {
+    width: 60%;
+}
+
+.container#box {
+    background-color: #fff;
+    color: #1D1C1A;
+}
+
+.container#box h2 {
+    font-family: 'tommy';
+    text-align: center;
+    font-weight: bolder;
+    font-size: 2rem;
+    padding: 0.5rem;
+    text-transform: uppercase;
+}
+
+.container#box p {
+    width: 80%;
+    text-align: center;
+    font-size: 1.2rem;
+    margin: auto;
+    line-height: 2.5rem;
+}
+
+div#ktb {
+    width: 20%;
+    margin: 0 auto;
+}
+
+div#ktb img {
+    width: 100%;
+}
+
+.container#horarios {
+    text-align: center;
+}
+
+.container#horarios h2 {
+    font-family: 'tommy';
+    padding: 0.2em;
+    margin: 0.2em 0.2em;
+    text-transform: uppercase;
+    font-size: 2em;
+}
+
+.container#horarios h3 {
+    color: #0DF205;
+    margin-bottom: 1em;
+}
+
+.container#planos {
+    background-color: #fff;
+    text-align: center;
+    color: #1D1C1A;
+}
+
+.container#planos h2 {
+    font-family: 'tommy';
+    padding: 0.2em;
+    margin: 0.2em 0.2em;
+    text-transform: uppercase;
+    font-size: 2em;
+}
+
+.container#planos img {
+    width: 35%;
+}
